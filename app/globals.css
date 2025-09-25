@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+}
+.container-glow {
+    box-shadow: 0 0 15px rgba(14, 165, 233, 0.3), 0 0 30px rgba(14, 165, 233, 0.2);
+    border: 1px solid rgba(14, 165, 233, 0.4);
+}
+.btn-primary {
+    background-color: #0891b2;
+    color: #ffffff;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(14, 165, 233, 0.5);
+}
+.btn-primary:hover {
+    background-color: #06b6d4;
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(14, 165, 233, 0.8);
+}
+.option-btn {
+    border: 1px solid #374151;
+    transition: all 0.3s ease;
+}
+.option-btn:hover {
+    border-color: #0891b2;
+    background-color: rgba(14, 165, 233, 0.1);
+    color: #67e8f9;
+}
+.option-btn.selected {
+    border-color: #06b6d4;
+    background-color: rgba(14, 165, 233, 0.2);
+    color: #e0f2fe;
+}
+.text-cyan-glow {
+    text-shadow: 0 0 5px rgba(14, 165, 233, 0.7), 0 0 10px rgba(14, 165, 233, 0.5);
+}
+.progress-bar-inner {
+    background: linear-gradient(90deg, #0891b2, #67e8f9);
+    box-shadow: 0 0 10px #0891b2;
+}
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+.pulse-animation {
+    animation: pulse 2s infinite ease-in-out;
+}
