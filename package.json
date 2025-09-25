@@ -2,6 +2,7 @@
   "name": "painhunter-site",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,3 +25,4 @@
     "eslint-config-next": "14.2.3"
   }
 }
+
