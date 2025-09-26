@@ -1,8 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation'; // Importe o useRouter
 
 export default function PainHunterQuizPage() {
+    const router = useRouter(); // Inicialize o router
     // -- ESTADO DO COMPONENTE --
     const [screen, setScreen] = useState('start'); 
     const [userScore, setUserScore] = useState(0);
@@ -113,9 +115,7 @@ export default function PainHunterQuizPage() {
     };
     
     const handleFinalAction = () => {
-        // Futuramente, isso pode redirecionar para a página de vendas
-        // window.location.href = '/pagina-de-vendas';
-        alert('PAINHUNTER™ ATIVADO. A transformação começou.');
+        router.push('/vendas'); // Redireciona para a página de vendas
     };
 
     // -- RENDERIZAÇÃO DO COMPONENTE --
