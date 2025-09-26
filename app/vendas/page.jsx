@@ -29,7 +29,7 @@ export default function SalesPage() {
                 />
                 <div className="relative z-20 max-w-4xl mx-auto container-glow bg-black/50 backdrop-blur-sm p-8 rounded-lg">
                     <h1 className="text-4xl md:text-6xl font-bold text-cyan-400 text-cyan-glow leading-tight">
-                        “Seu produto está respirando por aparelhos de hype barato. Eu sou o bisturi que corta a mentira e devolve vendas em até 72 horas.”
+                        Seu produto está respirando por aparelhos de hype barato. Eu sou o bisturi que corta a mentira e devolve vendas em até 72 horas.
                     </h1>
                     <p className="mt-6 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
                         PainHunter™: o mentor maquiavélico que transforma promessas covardes em cicatrizes lucrativas, usando dor real como bisturi e promessa específica como sutura.
@@ -58,7 +58,7 @@ export default function SalesPage() {
                 {/* Introdução do PainHunter */}
                 <section className="text-center container-glow p-8 rounded-lg">
                      <img 
-                        src="https://images.unsplash.com/photo-1618939304344-8034237b5d56?q=80&w=1944&auto=format&fit=crop" 
+                        src="https://thumbs.dreamstime.com/b/m%C3%A3os-humanas-que-possuem-um-conhecimento-abstrato-do-c%C3%A9rebro-digital-sa%C3%BAde-mental-e-conceito-futurista-arte-simbolizando-343457763.jpg" 
                         alt="Raio-X de um crânio"
                         className="w-full h-64 object-cover rounded-lg mb-8 opacity-70" 
                     />
