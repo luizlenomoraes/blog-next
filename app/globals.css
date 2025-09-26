@@ -64,11 +64,3 @@ body {
     animation: pulse 2s infinite ease-in-out;
 }
 
-    }
-    50% {
-        transform: scale(1.05);
-    }
-}
-.pulse-animation {
-    animation: pulse 2s infinite ease-in-out;
-}
